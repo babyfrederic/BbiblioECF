@@ -51,24 +51,25 @@
     <div class="wrapper">
         <div class="boxone"><img src="../image/Auteur.png" alt=""> </div>
         <!-- <div class="boxtwo"><img src="../image/Article.png" alt=""> </div> -->
-
-        <button class="bouton"> Je Valide mon Article !</button>
+      <div class="parag">
+        <button class="buttondeux"> Valider Saisie Article</button>
         <button onclick="(function(){
             let para = document.createElement('p');
             para.textContent = 'Article Ajouté';
             document.body.appendChild(para);
         })();">
-            Ajout de l'article validé
+            Ajout de l'article Validé
         </button>
 
-        <button class="bouton">J'annule mon formulaire !</button>
+        <button class="buttondeux">Annuler Saisie</button>
         <button onclick="(function(){
             let para = document.createElement('p');
             para.textContent = 'Supprimer Formulaire';
             document.body.appendChild(para);
         })();">
-            Suppression du formulaire validée
+            Suppression du formulaire 
         </button>
+    </div>
     </div>
 
           <!-- /**** Footer ****/ -->
