@@ -652,11 +652,7 @@ padding:5px 0;
       flex-wrap: nowrap;
     }
 
-  footer{
-    flex-direction: column;
-   justify-content: center;
-   text-align: center;
-  }
+
 
   .center{
     order: -3;

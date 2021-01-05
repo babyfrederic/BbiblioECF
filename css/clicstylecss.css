@@ -1,3 +1,7 @@
+*{
+
+}
+
 span {
     background-color:light-grey;
     border-radius:15px;
@@ -7,26 +11,39 @@ span:last-of-type{
     color:red;
 }
 button {
-    background-color: #4CAF50;
+    background-color: #4c77af;
     color: white;
-    padding: 30px;
+    padding: 35px;
     font-size: 20px;
-    border: none;
+    border: 5px;
     cursor:pointer;
-    padding:20px;
+    padding:18px;
 }
-#a {
-    background-color: red;
-}
+
 
 button:hover {
     background-color:#172bdd;
+}
+.buttontwo {
+    background-color: #192dd8;
+    color: white;
+    padding: 35px;
+    font-size: 20px;
+    border: 5px;
+    cursor:pointer;
+    padding:18px;
+}
+.buttontwo:hover {
+    background-color:#848cdb;
 }
 #resultat{
     background-color:#1411c4;
     color:white;
     font-size:50px;
     padding:4px;	
+}
+#a {
+    background-color: red;
 }
 #v {
     background-color:#8115c9;
@@ -53,10 +70,20 @@ width: 100%;
 margin: 0;
 }
 .bouton {   
-    background-color: #021802;
-    color: white;
-    padding: 30px;
-    font-size: 20px;
-    border: none;
+    background-color: #1da51d;
+    color: rgb(218, 35, 35);
+    margin: 10%;
+    border : 10%;
+    padding: 15%;
+    font-size: 20%;
+    border: 10%;
     cursor:pointer;
+}
+footer {
+    display:  flex; 
+    flex-direction:  column;
+    background-color:#172bdd;
+}
+h2 {
+    background-color:#172bdd;
 }

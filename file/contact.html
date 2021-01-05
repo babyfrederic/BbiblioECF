@@ -7,7 +7,9 @@
           content="width=device-width, initial-scale=1, user-scalable=no">
         <link rel="stylesheet" href="cours.css">
         <link rel="stylesheet" href="../js/JScode.js" />
+        <link rel="stylesheet" href="./css/styleNa.css" />
         <link rel="stylesheet" href="../css/styleForms.css">
+        <link rel="stylesheet" href="../css/clicstylecss.css">
     </head>
     
     <body>
@@ -29,44 +31,36 @@
                 <button 
                     onclick="(function(){
                     let para = document.createElement('p');
-                    para.textContent = 'Contact Ajouté';
+                    para.textContent = 'Vous avez choisi d\'etre membre de jury';
                     document.body.appendChild(para);
                     })();"> 
-                    Ajouter Contact
+                    Devenir Membre d'un Jury
                 </button>
-          
+                
                 <button onclick="(function(){
                     let para = document.createElement('p');
-                    para.textContent = 'Article Ajouté';
+                    para.textContent = 'Vous avez choisi de vous inscrire comme auteur';
                     document.body.appendChild(para);
                     })();">
-                    Ajouter article 
+                    Remplir une inscription comme auteur 
                 </button>
          
                 <button onclick="(function(){
                     let para = document.createElement('p');
-                    para.textContent = 'Paragraphe Ajouté';
+                    para.textContent = 'Autre motif pour contacter l\'administration';
                     document.body.appendChild(para);
                     })();">
-                    Ajouter paragraphe 
+                    Remplir formulaire de contact 
                 </button>
             </div>
             <div class="l2.boxone">
                 <button 
                     onclick="(function(){
                     let para = document.createElement('p');
-                    para.textContent = 'Contact Supprimé';
+                    para.textContent = 'Suppression du formulaire';
                     document.body.appendChild(para);
                     })();"> 
                     Suppression Contact
-                </button>
-           
-                <button onclick="(function(){
-                    let para = document.createElement('p');
-                    para.textContent = 'Article supprimé';
-                    document.body.appendChild(para);
-                    })();">
-                    Suppression Article
                 </button>
             </div>
             <div>
@@ -81,14 +75,41 @@
         </div>
            <!-- /**** Footer ****/ -->
     <footer>
+    </br></br></br></br>
         <div class="center">
           <div class="reseau">
-            <a href=""><img src="./image/facebook.png" alt=""></a>
-            <a href=""><img src="./image/twitter.png" alt=""></a>
-            <a href=""><img src="./image/pinterest.png" alt=""></a>
-          </div>
+            <a href=""><img src="../image/facebook.png" alt=""></a>
+            <div class="buttontwo">    
+                <buttontwo 
+                    onclick="(function(){
+                    let para = document.createElement('p');
+                    para.textContent = 'Integrerframefacebook';
+                    document.body.appendChild(para);
+                    })();"> 
+                    Integrer De Facebook
+                </buttontwo>
+
+            <a href=""><img src="../image/twitter.png" alt=""></a>
+                <buttontwo 
+                    onclick="(function(){
+                    let para = document.createElement('p');
+                    para.textContent = 'IntegrerframeTwitter';
+                    document.body.appendChild(para);
+                    })();"> 
+                    Integrer De Twitter
+                </buttontwo>
+            <a href=""><img src="../image/pinterest.png" alt=""></a>
+                <buttontwo 
+                    onclick="(function(){
+                    let para = document.createElement('p');
+                    para.textContent = 'IntegrerframeInstagram';
+                    document.body.appendChild(para);
+                    })();"> 
+                    Integrer De Instagram
+                </buttontwo>
+            </div>
         </div>
-        </footer>
+    </footer>
       <!-- /**** Footer fin ****/ -->
     </body>
 </html>
