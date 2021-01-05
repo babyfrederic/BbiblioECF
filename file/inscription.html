@@ -56,15 +56,47 @@
         })();">
             Ajouter une information
     </button>
-       <!-- /**** Footer ****/ -->
-       <footer>
-        <div class="center">
-          <div class="reseau">
-            <a href=""><img src="./image/facebook.png" alt=""></a>
-            <a href=""><img src="./image/twitter.png" alt=""></a>
-            <a href=""><img src="./image/pinterest.png" alt=""></a>
-          </div>
-        </div>
+          <!-- /**** Footer ****/ -->
+          <footer>
+    
+            <div class="centrer">
+              <div class="reseau">
+                <a href=""><img src="../image/facebook.png" alt=""></a> 
+                <div class="buttontrois">
+                    <buttontrois
+                        onclick="(function(){
+                        let para = document.createElement('p');
+                        para.textContent = 'Integrerframefromfacebook';
+                        document.body.appendChild(para);
+                        })();"> 
+                        Integrer De Facebook
+                    </buttontrois>
+                    <p></p>
+                </div>
+                <a href=""><img src="../image/twitter.png" alt=""></a>
+                <div class="buttontrois">
+                    <buttontwo 
+                        onclick="(function(){
+                        let para = document.createElement('p');
+                        para.textContent = 'IntegrerframefromTwitter';
+                        document.body.appendChild(para);
+                        })();"> 
+                        Integrer De Twitter
+                    </buttontwo>
+                </div>
+                <a href=""><img src="../image/pinterest.png" alt=""></a>
+                <div class="buttontrois">   
+                        <buttontwo 
+                            onclick="(function(){
+                            let para = document.createElement('p');
+                            para.textContent = 'IntegrerframefromPinterest';
+                            document.body.appendChild(para);
+                            })();"> 
+                            Integrer De Pinterest
+                        </buttontwo>
+                    </div>  
+                </div>
+            </div>
         </footer>
-      <!-- /**** Footer fin ****/ -->
+          <!-- /**** Footer fin ****/ -->
 </body>
