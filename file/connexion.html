@@ -38,6 +38,13 @@
                   <h4>Festival <span>BBiBlio</span></h4>
                   <div class="floating-label">
                     <input placeholder="Email" type="email" name="email" id="email" autocomplete="off">
+  <script>           
+  var pseudo = prompt('Pour Acceder à votre espace, Entrer Votre identifiant recu par mail a votre validation d\'inscription ', '');
+  if(pseudo.match(/^([0-9a-zA-Z_]){10,20}$/))
+        alert('Pseudo correct !');
+  else
+        alert('Pseudo incorrect ;-(');   
+  </script> 
                     <label for="email">Email:</label>
                     <div class="icon">
                       <?xml version="1.0" encoding="UTF-8"?>
