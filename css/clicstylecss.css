@@ -182,3 +182,14 @@ footer {
     background-color:#646dc269;
 
 }
+figure {
+border : 2 px solide #333;;
+padding : 5 px ;
+Width: 305 px;
+}
+figcaption {
+    background-color: RGBa(0,0,0,8);
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
