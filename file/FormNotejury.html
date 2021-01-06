@@ -23,7 +23,64 @@
           </ul>
         </nav>
     </div>  
+    <!-- /**** affichage des notes ****/      -->
+   <table>
+    <img src="..\image\sl3.jpg" alt="Ouvrage de l'auteur - lien pour achat boutique">
+    <br>
+</br>
+
+    <div style="text-align: center">
+        <label> Style : </label> 
+          <div class="buton">
+              <input placeholder="note (de 1 à 10)" type="number" name="diststyle" id="diststyle" autocomplete="off">
+              </br>
+             <label> illustration : </label>
+              <div class="floating">
+                  <input placeholder="note (de 1 à 10)" type="number" name="distillust" id="distillust" autocomplete="off">
+              </div>
+              <label> Mise en page : </label>
+              <div class="floating">
+                  <input placeholder="note (de 1 à 10)" type="number" name="distpage" id="distpage" autocomplete="off">
+              </div>
+              <label> Emotion : </label>
+              <div class="floating">
+                  <input placeholder="note (de 1 à 10)" type="number" name="emotion" id="distemo" autocomplete="off">
+              </div>
+                  </br>
+              </div>
+          </div>
+          <br>
+        </br>
+        
+<!-- /**** affichage du note globale  ****/      -->        
+          <div style="text-align: center">
+         <button onclick="monseuil()" id="v" >Calcul Note Globale</button>
+         <button center >
+         <span id="noteglobal" style="color:rgb(250, 240, 232);" >0 "Note Globale"</span>               
+        </button>  
+    </table>
+
+    <br>
+</br>
+
+<script>
+function monseuil()
+  {
+    var stylea = 0;
+    var illusta = 0;
+    var misepagea = 0;
+    var emotiona = 0;
+
+    var stylea = document.getElementById("diststyle").value;
+    var illusta = document.getElementById("distillust").value;
+    var misepagea = document.getElementById("distpage").value;
+    var emotiona = document.getElementById("distemo").value;
+    document.getElementById("noteglobal").innerHTML = (stylea++ + illusta++ + misepagea++ + emotiona++) / 4 ;
+  }
+</script>
    
+
+
           <!-- /**** Footer ****/ -->
           <footer>
     
