@@ -4,40 +4,38 @@
 <livres id="01">
 <livre>
 <titre>
-1984
+L'anomalie
 </titre>
 
 <auteurs>
-
+Hervé Le Tellier
 <auteur>
-George Owrell
 </auteur>
 </auteurs>
 
 <editeur>
-Galimard
+Gallimard
 </editeur>
 
 <description>
-
+Il est une chose admirable qui surpasse toujours la connaissance, l'intelligence, et même le génie, c'est l'incompréhension."En juin 2021, un événement insensé bouleverse les vies de centaines d'hommes et de femmes, tous passagers d'un vol Paris-New York. Parmi eux : Blake, père de famille respectable et néanmoins tueur à gages ; Slimboy, pop star nigériane, las de vivre dans le mensonge ; Joanna, redoutable avocate rattrapée par ses failles
 </description>
 
 </livre>
 <pages>
-1591
+391
 </pages>
 
-<couverture src="../img/livres1.png"/>
-<prix> 18.90 € </prix>
+<couverture src="../image/Anomalie.jpg"/>
+<prix> 20.90 € </prix>
 <edition> 1ère édition </edition>
-<parution> 13/09/2018 </parution>
+<parution> 11/06/2020 </parution>
 
 <commentaire>
-La nouvelle traduction est vraiment bien, changer la communauté de l’anneau en fraternité de l'anneau est excellent car c'est la vraie traduction du titre original de Tolkien... Je suis moins fan par contre du changement du nom de famille Saquet par Bessac... Même si Bessac ressemble phonétiquement à Baggin, je ne vois pas ici l’intérêt ici d'avoir changé ce nom. Mais c'est un petit détail, Daniel Lauzon a fait un travail remarquable.
-</commentaire>
+Nul n'imaginait à quel point c'était vrai.Roman virtuose où la logique rencontre le magique, L'anomalie explore cette part de nous-mêmes qui nous échappe.</commentaire>
 
 <note>
-9.8/10
+9.5/10
 </note>
 
 </livres>
@@ -45,28 +43,25 @@ La nouvelle traduction est vraiment bien, changer la communauté de l’anneau e
 <livres id="02">
 <livre>
 <titre>
-Gastby le magnifique
+1984
 </titre>
 
 <auteurs>
-
+George Orwell
 <auteur>
-Francis Scott Fitzgerald
 </auteur>
 </auteurs>
 
 <editeur>
-Galimard
+Folio
 </editeur>
 
 <description>
-Dès mon âge le plus tendre et le plus facile à influencer, mon père m'a donné un certain conseil que je n'ai jamais oublié.
- « Chaque fois que tu te prépares à critiquer quelqu'un, m'a-t-il dit, souviens-toi qu'en venant sur terre tout le monde n'a pas eu droit aux mêmes avantages que toi. »
-</description>
+Il décrit une Grande-Bretagne trente ans après une guerre nucléaire entre l'Est et l'Ouest censée avoir eu lieu dans les années 1950 et où s'est instauré un régime de type totalitaire fortement inspiré à la fois du stalinisme et de certains éléments du nazisme1,2. La liberté d'expression n’existe plus. Toutes les pensées sont minutieusement surveillées, et d’immenses affiches sont placardées dans les rues, indiquant à tous que « Big Brother vous regarde » (Big Brother is watching you).</description>
 
 </livre>
 <pages>
-300
+400
 </pages>
 
 <couverture src="../img/livres2.png"/>
@@ -75,7 +70,7 @@ Dès mon âge le plus tendre et le plus facile à influencer, mon père m'a donn
 <parution> 18/02/2021 </parution>
 
 <commentaire>
-Mon Dieu mais quelle bouse. C'est ça le chef d'oeuvre de FS Fitzgerald? 200 pages d'un ennui mortel à suivre les insignifiantes aventures de personnages fades, transparents et incroyablement superficiels. Et ben ça ne donne pas du tout envie de lire ses autres romans. Le seul point positif du roman, c'est qu'il est court du coup on s'emmerde pendant moins longtemps.Quoique ... car le temps peut paraitre bien long dans ces conditions.
+Souriez, vous êtes filmés. Londres, 1984. Voici Winston Smith,employé au Ministère de la Vérité, chargé de réécrire l'histoireafin qu'elle s'accorde avec la version officielle. Voici les télécransqui diffusent en permanence les messages de propagande etespionnent sans relâche chaque individu. Voici Julia, rencontréelors des Deux Minutes de la Haine quotidiennes et obligatoiresoù l'on conspue le Traître Emmanuel Goldstein, qui aura mailleà partir, comme Winston, avec la Police de la Pensée. 
 </commentaire>
 
 <note>
