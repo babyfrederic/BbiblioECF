@@ -50,7 +50,7 @@
     
     <h1>Horloge Locale </h1>
     <p id='tog'>Il est actuellement <span id='heure'></span></p>
-    <button id='bouton'>Cacher / Afficher l'heure</button>
+    <id='bouton'>Cacher / Afficher l'heure</id=>
     <button onclick="alert('Attention : Il est imperatif que le livre soit ecrit dans l\'annéee ! et que l\'inscription soit validée avant la date limite ')">Attention Message</button>
         <button onclick="(function(){
             let para = document.createElement('p');
@@ -61,7 +61,7 @@
     </button>
     <button onclick="(function(){
       let para = document.createElement('p');
-      para.textContent = 'Acces non autorisé - Vous pouvez allez remplir votre formulaire Jury';
+      para.textContent = 'Acces non autorisé - Vous pouvez allez remplir votre formulaire Jury'  ;
       document.body.appendChild(para);
   })();">
       SAISIE JURY
@@ -74,6 +74,7 @@
 })();">
   SAISIE AUTEUR
 </button>
+<img src="../image/logo.png" onclick="javascript:tafonction();" alt="Texte" style="cursor:pointer;" />
 <p>Vous devez vous inscrire avant de pouvoir participer soit comme auteur, soit comme jury afin de recevoir vos identifiants de connexion</p>
 
   </br> </br> </br>  </br> </br> 

@@ -3,8 +3,12 @@
 <html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/mdcss.css">
-<h1>Accès Menu Admin</h1>
+    <link rel="stylesheet" href="../css/mdcss.css">   
+   <link rel="stylesheet" href="../css/clicstylecss.css">
+   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script defer src="..\js\acces.js"></script>
+<h1>Accès Menu Admin Parametrages Fonctionnalités Cachées </h1>
+
 <nav>
   <div class="conteneur-nav">
   <label for="mobile">Afficher / Cacher le menu</label>
@@ -131,123 +135,27 @@ nav > ul li:hover .sous{
 
    <select id="dynamic_select">
       <option value="" selected>Menu Categories</option>
-      <option value="../file/listefr.html">Roman Français</option> 
+      <option value="">Roman Français</option> 
       <option value="personnel">Roman Etranger</option>
       <option value="student">Biographie</option>
       <option value="ext">Documentaire</option>
    </select>
 
 
-<div class="buttontrois">         
-   <input placeholder=" Roman Français"  type="select"  name="categorie" id="nomcateg"  autocomplete="off" >
-   <label> Categories </label>
-       <radio value="oui">Roman Français</radio>
-       <radio value="Roman Etrange">Roman Etranger</radio>
-       <option value="do">Documentaire</option>
-       <option value="bi">Biographie</option>
-   </input> 
-</div>  
 
-
-<nav>
-   <ul>
-     <li class="deroulant"><a href="#">Catégorie &ensp;</a>
-       <ul class="sous">
-         <li><a href="#">Roman Français</a></li>
-         <li><a href="#">Roman étranger</a></li>
-         <li><a href="#">Documentaire</a></li>
-         <li><a href="#">Biographie</a></li>
-       </ul>
-     </li>
- </nav>
- 
-
-<input type="radio">
-   <name>membre d'un jury</name
-    >
-   <option valeur="personnel">
-      <label>Editeur</label>
-      <bloc style="display: block">
-         <input>
-            <name
-            >matricule</name
-                >
-            <label>votre matricule du personnel</label>
-         </input>
-      </bloc>
-   </option>
-   <option valeur="student">
-      <label>étudiant</label>
-      <bloc style="cadre">
-         <input>
-            <name
-            >matricule</name
-                >
-            <label>votre matricule étudiant</label>
-         </input>
-      </bloc>
-   </option>
-   <option valeur="ext">
-      <label>extérieur</label>
-      <bloc style="cadre1">
-         <input>
-            <name
-            >name
-
-            </name
-                >
-            <label>vos name
-                 et préname
-                </label>
-         </input>
-      </bloc>
-   </option>
-</input>
-<input type="select">
-   <name>type</name>
-   <choix/>
-   <option valeur="personnel">
-      <label>membre du personnel</label>
-      <bloc style="cadre1">
-         <input>
-            <name
-            >matricule</name
-                >
-            <label>votre matricule du personnel</label>
-         </input>
-      </bloc>
-   </option>
-   <option valeur="student">
-      <label>étudiant</label>
-      <bloc style="cadre1">
-         <input>
-            <name
-            >matricule</name
-                >
-            <label>votre matricule étudiant</label>
-         </input>
-      </bloc>
-   </option>
-   <option valeur="ext">
-      <label>extérieur</label>
-      <bloc style="cadre1">
-         <input>
-            <name>nom</name>
-            <label>vos noms et prenoms</label>
-         </input>
-      </bloc>
-   </option>
-</input>
-<img src="../image/logo_connexion.png" alt=""> 
+<img src="../image/logo_connexion.png" alt="" width=50% height="100%"> 
 
 
 <!-- autre imbrication  -->
-<input type="select">
+<select id="dynamic_select">
    <name>langue</name>
-   <label>Quelle est votre langue marternelle ?</label>
+   <label>Dans quelle langue voulez vous le site ?</label>
    <option valeur="fr">Français</option>
    <option valeur="nl">Néerlandais</option>
    <option valeur="en">Anglais</option>
+   <option valeur="Espagnol">Espagnol</option>
+   <option valeur="Russe">Russe</option>
+   <option valeur="Chinois">Chinois</option>
    <option valeur="other">Autre</option>
 </input>
 
