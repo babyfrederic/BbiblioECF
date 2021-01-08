@@ -40,6 +40,8 @@
               <li><a href="..\file\historique.html">historique</a></li>
               <li><a href="..\file\oeuvre.html">Oeuvres</a></li>
               <li><a href="..\file\contact.html">Contact/Inscription</a></li>
+              <li><a href="..\file\listrofr.html">Listes</a></li>
+              <li><a href="..\file\menusadmin.html">Connexions </a></li>
               <li><a href="..\file\connexion.html">Connexion Jury/Auteur</a></li>
             <li><a href="#"><img src="/image/search.png" alt=""></a></li>
             </ul>
@@ -49,7 +51,7 @@
     <h1>Horloge Locale </h1>
     <p id='tog'>Il est actuellement <span id='heure'></span></p>
     <button id='bouton'>Cacher / Afficher l'heure</button>
-    <button onclick="alert('Attention : Il est imperatif que le livre soit ecrit dans l annéee ! et que l inscription soit validée avant la date limite ')">Attention Message</button>
+    <button onclick="alert('Attention : Il est imperatif que le livre soit ecrit dans l\'annéee ! et que l\'inscription soit validée avant la date limite ')">Attention Message</button>
         <button onclick="(function(){
             let para = document.createElement('p');
             para.textContent = 'Votre identification est correcte vous pouvez saisir les notes attribuées dans votre categorie jusqu\'au 18 novembre 2021';
@@ -57,6 +59,23 @@
         })();">
             Information 
     </button>
+    <button onclick="(function(){
+      let para = document.createElement('p');
+      para.textContent = 'Acces non autorisé - Vous pouvez allez remplir votre formulaire Jury';
+      document.body.appendChild(para);
+  })();">
+      SAISIE JURY
+</button>
+</button>
+<button onclick="(function(){
+  let para = document.createElement('p');
+  para.textContent = 'Acces non autorisé - Vous pouvez allez remplir votre formulaire Auteur';
+  document.body.appendChild(para);
+})();">
+  SAISIE AUTEUR
+</button>
+<p>Vous devez vous inscrire avant de pouvoir participer soit comme auteur, soit comme jury afin de recevoir vos identifiants de connexion</p>
+
   </br> </br> </br>  </br> </br> 
 
           <!-- /**** Footer ****/ -->

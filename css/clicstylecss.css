@@ -1,3 +1,13 @@
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+.cadre{
+    display :inline-block
+    background-color:goldenrod;
+    border-radius:15px;
+    color:green;  
+}
 
 span {
     background-color:light-grey;
@@ -24,9 +34,9 @@ button:hover {
 .buttondeux {
     background-color: #28cae6dc;
     color: white;
-    padding: 20px;
+    padding: 2px;
     border: 10px;
-    display: inline-block;
+    display: block;
     border-radius: 10px;
     border: 4px double #cccccc;
     text-align: center;
@@ -133,7 +143,18 @@ transition: all .4s
     font-size:50px;
     padding:4px;	
 }
+.centrer{
+display : block;
+margin : auto;
+padding : 100px;
+}
+.placement {
+display : inline-flex;
+margin : auto;
+padding : 10px;
+;
 
+}
 #a {
     background-color: red;
 }
@@ -204,12 +225,12 @@ footer {
     background-color:#646dc269;
 
 }
-figure {
+.figure {
 border : 2 px solide #333;;
 padding : 5 px ;
 Width: 305 px;
 }
-figcaption {
+.figcaption {
     background-color: RGBa(0,0,0,8);
     color: #fff;
     text-align: center;

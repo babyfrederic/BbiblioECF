@@ -18,51 +18,57 @@
             <li><a href="../file/reglement.html">Règlement</a></li>
             <li><a href="..\file\historique.html">historique</a></li>
             <li><a href="..\file\oeuvre.html">Oeuvres</a></li>
+            <li><a href="..\file\listrofr.html">Listes</a></li>
             <li><a href="..\file\contact.html">Contact/Inscription</a></li>
+            <li><a href="..\file\menusadmin.html">Connexions </a></li>
             <li><a href="..\file\connexion.html">Connexion Jury/Auteur</a></li>
           </ul>
         </nav>
     </div>  
     <!-- /**** affichage des notes ****/      -->
-    <!-- <ol>
-        <li>Ouvrages categories</li>
-            <ul>
-                <li>Roman Français</li>
-                <li>Roman Etranger</li>
-                <li>Documentaire</li>
-                <li>Biographie</li>
-            </ul>
-        <li>Jury composé de
-            <ul>
-                <li>joe</li>
-                <li>jack</li>
-                <li>william</li>
-                <li>avrel</li>
-            </ul>
-        </li>
-    </ol> -->
+  
    <table>
    <br>
     <div style="text-align: center">
-        <h2>Ouvrage à Evaluer </h2>
-        <p></p><br>
+        <!-- <h2>Ouvrage à Evaluer </h2> -->
+    </p><br><H2>Evaluation des ouvrages</H2>
+     <div class="placement"> 
     </br>
-          <div class="buttontrois">
-              <input placeholder="Roman Français" type="list-cat"name="choixcateg" id="choixcateg" autocomplete="off">
-          </div>
-            <div class="buttontrois">
-                  <input placeholder="Nom du juré" type="list-jury" name="nomjury" id="nomjury" autocomplete="off">
-            </div>
-    </div> 
-    <figure>
-    <img src="..\image\sl3.jpg" 
-         alt="Ouvrage de l'auteur - lien pour achat boutique"
-         width="200px" 
-         height="300px" >  
-         <figcaption> l'ouvrage à noter</figcaption>      
-    </figure>
+        <div class="centre">
+                    <div class="parag">
+                    <div class="buttontrois"> 
+                        <input placeholder="code acces" type="select" name="nomcode" id="nomcode" autocomplete="off">
+                    </div>
+                    <div class="buttontrois">         
+                        <input placeholder=" Roman Français"  type="select"  name="nomcateg" id="nomcateg" autocomplete="off" > 
+                        <!--liste des categorie en selction
+                            <name>categories</name>
+                        <label> Choix de la categorie : </label>
+                            <option value="...">Roman Français</option>
+                            <option value="Roman Etrange">Roman Etranger</option>
+                            <option value="do">Documentaire</option>
+                            <option value="bi">Biographie</option>
+                        </input> -->
+                    </div> 
+                    <div class="buttontrois">
+                        <input placeholder="Nom du juré dans liste" type="select" name="nomjury" id="nomjury" autocomplete="off">
+                    </div>
+                </div>
+         </div> 
+    </div>
+    <div class="placement">
+            <figure>
+            <img src="..\image\Anomalie.jpg" 
+                alt="Ouvrage de l'auteur - lien pour achat boutique"
+                width="200px" 
+                height="300px" >  
+                <figcaption> l'ouvrage à noter</figcaption>
+                <a>Ouvrage de l'auteur - lien pour achat boutique</a>      
+            </figure>
+    </div>
+</div>
 </p>
-    <a>Ouvrage de l'auteur - lien pour achat boutique</a>
+    
     <br>
 </br>
 </div>
@@ -93,11 +99,11 @@
           <div style="text-align: center">
          <button onclick="monseuil()" id="v" >Calcul Note Globale</button>
          <button center >
-         <span id="noteglobal" style="color:rgb(250, 240, 232);" >0 "Note Globale"</span>               
+         <span id="noteglobal" style="color:rgb(250, 240, 232);" >0 </span>               
         </button>  
     </table>
 
-    <br>
+
 </br>
 
 <script>

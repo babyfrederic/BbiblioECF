@@ -1,0 +1,80 @@
+<html lang="fr">
+    <html>
+    <head>
+        <title>Contact JS</title>
+        <meta charset="utf-8">
+        <meta name="viewport"
+          content="width=device-width, initial-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="cours.css">
+        <link rel="stylesheet" href="../js/JScode.js" />
+        <link rel="stylesheet" href="../css/styleNa.css" />
+        <link rel="stylesheet" href="../css/styleForms.css">
+        <link rel="stylesheet" href="../css/clicstylecss.css">
+    </head>
+    
+    <body>
+        <nav>
+            <header>
+                <img src="../image/logo.png" alt="">
+            </header>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../file/reglement.html">Règlement</a></li>
+                <li><a href="..\file\historique.html">historique</a></li>
+                <li><a href="..\file\oeuvre.html">Oeuvres</a></li>
+                <li><a href="..\file\listrofr.html">Listes</a></li>
+                <li><a href="..\file\contact.html">Contact/Inscription</a></li>
+                <li><a href="..\file\menusadmin.html">Connexions </a></li>
+            </ul>
+        </nav>
+        <h4> Contact principal</h4>
+        <li><a href="..\file\FormJury.html">Devenir membre de  jury</a></li>
+        <li><a href="..\file\FormAuteur.html">S'inscrire comme auteur</a></li>
+        <li><a  href="..\file\listrofr.html">Consulter les Listes</a></li>
+
+    </br>   </br>   
+           <!-- /**** Footer ****/ -->
+    <footer>
+    
+        <div class="centrer">
+          <div class="reseau">
+            <a href=""><img src="../image/facebook.png" alt=""></a> 
+            <div class="buttontrois">
+                <buttontrois
+                    onclick="(function(){
+                    let para = document.createElement('p');
+                    para.textContent = 'Integrerframefromfacebook';
+                    document.body.appendChild(para);
+                    })();"> 
+                    Integrer De Facebook
+                </buttontrois>
+                <p></p>
+            </div>
+            <a href=""><img src="../image/twitter.png" alt=""></a>
+            <div class="buttontrois">
+                <buttontwo 
+                    onclick="(function(){
+                    let para = document.createElement('p');
+                    para.textContent = 'IntegrerframefromTwitter';
+                    document.body.appendChild(para);
+                    })();"> 
+                    Integrer De Twitter
+                </buttontwo>
+            </div>
+            <a href=""><img src="../image/pinterest.png" alt=""></a>
+            <div class="buttontrois">   
+                    <buttontwo 
+                        onclick="(function(){
+                        let para = document.createElement('p');
+                        para.textContent = 'IntegrerframefromPinterest';
+                        document.body.appendChild(para);
+                        })();"> 
+                        Integrer De Pinterest
+                    </buttontwo>
+                </div>  
+            </div>
+        </div>
+    </footer>
+      <!-- /**** Footer fin ****/ -->
+    </body>
+</html>

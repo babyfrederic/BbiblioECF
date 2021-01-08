@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/mdcss.css">
+<h1>Accès Menu Admin</h1>
+<nav>
+  <div class="conteneur-nav">
+  <label for="mobile">Afficher / Cacher le menu</label>
+  <input type="checkbox" id="mobile" role="button">
+    <ul>
+        <li><a href="../index.html">Accueil</a></li>
+            <li><a href="../file/reglement.html">Règlement</a></li>
+            <li><a href="..\file\historique.html">historique</a></li>
+            <li><a href="..\file\oeuvre.html">Oeuvres</a></li>
+                <li class="deroulant"><a href="..\file\contact.html">Contact/inscription &ensp;</a>
+                    <ul class="sous">
+                        <li><a href="..\file\Formjury.html">Devenir Membre d'un Jury</a></li>
+                        <li><a href="..\file\FormNotejury.html">Se connecter comme membre de jury</a></li>
+                        <li><a href="..\file\inscription.html">Remplir un formulaire de Contact</a></li>
+                        <li><a value="..\file\listrofr.html">Listes</a></li>
+                    </ul>
+                </li>
+          <li class="deroulant"><a href="..\file\connexion.html">Connexion Jury/Auteur &ensp;</a>
+            <ul class="sous">
+              <li><a href="..\file\FormAuteur.html">Remplir une inscription comme auteur</a></li>
+              <li><a href="..\file\FormEditeur.html">Se connecteur comme auteur</a></li>
+              <li><a href="..\file\FormEditeur.html">Se connecteur comme editeur</a></li>
+              <li><a href="#">Connexion Admin</a></li>
+            </ul>
+          </li>
+      
+      <li><a href="#">A propos</a></li>
+    </ul>
+  </div>
+</nav>
+
+<body>
+   <select id="dynamic_select">
+      <option value="" selected>Menu Admin</option>
+      <option value="../index.html">Accueil</option>
+      <option value="..\file\menusadmin.html">Connexion</option>
+      <option value="..\file\listrofr.html">Listes</option>
+      <option value="..\file\contact.html">Contact/Inscription</option>
+      <option value="..\file\connexion.html">Connexion Jury/Auteur</option>
+      <option value="..\file\ControleAccesAdminb.html">control </option>
+      <option value="../file/FormAuteur.html">Connexion Auteur</option>
+      <option value="../file/FormJury.html">Connexion Jury</option>
+      <option value="../file/FormEditeur.html">Connexion Editeur</option>
+      <option value="http://www.google.com">Google</option>
+      <option value="http://www.youtube.com">YouTube</option>
+     </select>
+
+</body>
+   <style>
+       nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+</style>
+
+<footer>
+
+   <select id="dynamic_select">
+      <option value="" selected>Menu Categories</option>
+      <option value="../file/listefr.html">Roman Français</option> 
+      <option value="personnel">Roman Etranger</option>
+      <option value="student">Biographie</option>
+      <option value="ext">Documentaire</option>
+   </select>
+
+
+<div class="buttontrois">         
+   <input placeholder=" Roman Français"  type="select"  name="categorie" id="nomcateg"  autocomplete="off" >
+   <label> Categories </label>
+       <radio value="oui">Roman Français</radio>
+       <radio value="Roman Etrange">Roman Etranger</radio>
+       <option value="do">Documentaire</option>
+       <option value="bi">Biographie</option>
+   </input> 
+</div>  
+
+
+<nav>
+   <ul>
+     <li class="deroulant"><a href="#">Catégorie &ensp;</a>
+       <ul class="sous">
+         <li><a href="#">Roman Français</a></li>
+         <li><a href="#">Roman étranger</a></li>
+         <li><a href="#">Documentaire</a></li>
+         <li><a href="#">Biographie</a></li>
+       </ul>
+     </li>
+ </nav>
+ 
+
+<input type="radio">
+   <name>membre d'un jury</name
+    >
+   <option valeur="personnel">
+      <label>Editeur</label>
+      <bloc style="display: block">
+         <input>
+            <name
+            >matricule</name
+                >
+            <label>votre matricule du personnel</label>
+         </input>
+      </bloc>
+   </option>
+   <option valeur="student">
+      <label>étudiant</label>
+      <bloc style="cadre">
+         <input>
+            <name
+            >matricule</name
+                >
+            <label>votre matricule étudiant</label>
+         </input>
+      </bloc>
+   </option>
+   <option valeur="ext">
+      <label>extérieur</label>
+      <bloc style="cadre1">
+         <input>
+            <name
+            >name
+
+            </name
+                >
+            <label>vos name
+                 et préname
+                </label>
+         </input>
+      </bloc>
+   </option>
+</input>
+<input type="select">
+   <name>type</name>
+   <choix/>
+   <option valeur="personnel">
+      <label>membre du personnel</label>
+      <bloc style="cadre1">
+         <input>
+            <name
+            >matricule</name
+                >
+            <label>votre matricule du personnel</label>
+         </input>
+      </bloc>
+   </option>
+   <option valeur="student">
+      <label>étudiant</label>
+      <bloc style="cadre1">
+         <input>
+            <name
+            >matricule</name
+                >
+            <label>votre matricule étudiant</label>
+         </input>
+      </bloc>
+   </option>
+   <option valeur="ext">
+      <label>extérieur</label>
+      <bloc style="cadre1">
+         <input>
+            <name>nom</name>
+            <label>vos noms et prenoms</label>
+         </input>
+      </bloc>
+   </option>
+</input>
+<img src="../image/logo_connexion.png" alt=""> 
+
+
+<!-- autre imbrication  -->
+<input type="select">
+   <name>langue</name>
+   <label>Quelle est votre langue marternelle ?</label>
+   <option valeur="fr">Français</option>
+   <option valeur="nl">Néerlandais</option>
+   <option valeur="en">Anglais</option>
+   <option valeur="other">Autre</option>
+</input>
+
+<input type="select">
+   <nom>images-type</nom>
+   <libellé>support actuel de vos images</libellé>
+   <option valeur="papier">photo papier</option>
+   <option valeur="dia">diapositives</option>
+   <option valeur="numeriques">images numériques</option>
+   <p>Si vous utilisez plusieurs formats, cochez celui qui est le plus fréquent.</p>
+</input>
+</footer>
+
+</Html>

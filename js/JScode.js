@@ -21,3 +21,4 @@ var dif = 0;
 var cumulajout =0 ;
 var cumulretre = 0;
 var difcumul =0;
+
