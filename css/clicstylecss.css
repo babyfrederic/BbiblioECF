@@ -146,8 +146,9 @@ transition: all .4s
 .centrer{
 display : block;
 margin : auto;
-padding : 100px;
+padding : 5px;
 }
+
 .placement {
 display : inline-flex;
 margin : auto;
@@ -201,12 +202,7 @@ margin: 0;
     position: relative;
     justify-content: space-between;
 }
-.centrer {
-display:center;
-display:flex;
-position: absolute;
-justify-content: space-between;
-}
+
 
 footer {
     justify-content: space-between;
