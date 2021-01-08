@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styleForms.css">
+    <link rel="stylesheet" href="../css/clicstylecss.css">
+    <script>
+      window.addEventListener('load',horloge);
+      function horloge(){
+        let d = new Date();
+        document.getElementById('heure').innerHTML = d.toLocaleTimeString();
+        setTimeout(horloge, 1000);
+    }
+    
+      document.addEventListener('DOMContentLoaded', function(){
+        let cache = document.getElementById('bouton');
+        cache.addEventListener('click',cacheHorloge);
+        document.getElementById('tog').style.display = 'block';
+        function cacheHorloge(){
+          let para = document.getElementById('tog');
+          if(para.style.display == 'block'){
+            para.style.display = 'none';
+          }else{
+            para.style.display = 'block';
+          }
+        }
+      });
+    </script>
+    <title>FormAuteur</title>
+</head>
+<body>
+    <nav>
+        <header>
+            <img src="../image/logo.png" alt="">
+        </header>
+        <ul>
+          <li><a href="../index.html">Accueil</a></li>
+          <li><a href="../file/reglement.html">Règlement</a></li>
+          <li><a href="..\file\historique.html">historique</a></li>
+          <li><a href="..\file\oeuvre.html">Oeuvres</a></li>
+          <li><a href="..\file\contact.html">Contact/Inscription</a></li>
+          <li><a href="..\file\listrofr.html">Listes</a></li>
+          <li><a href="..\file\menusadmin.html">Connexions </a></li>
+
+            <li><a href="../file/FormAuteur.html">Connexion Auteur</a></li>
+            <li><a href="../file/FormJury.html">Connexion Jury</a></li>
+            <li><a href="../file/FormEditeur.html">Connexion Editeur</a></li>
+            <li><a href="#"><img src="/image/search.png" alt=""></a></li>
+        </ul>
+    </nav>
+    <div class="wrapper">
+        <div class="boxone">
+            <img src="../image/Auteurmod1.jpg" alt=""></div>
+        <!-- <div class="boxtwo"><img src="../image/Article.png" alt=""> </div> -->
+      <div class="parag">
+        <button class="buttondeux"> Modifier rubriques</button>
+        <button onclick="(function(){
+            let para = document.createElement('p');
+            para.textContent = 'Article Ajouté';
+            document.body.appendChild(para);
+        })();">
+            Ajout des modifications
+        </button>
+
+        <button class="buttondeux">Annuler Saisies</button>
+        <button onclick="(function(){
+            let para = document.createElement('p');
+            para.textContent = 'Supprimer Formulaire';
+            document.body.appendChild(para);
+        })();">
+            Suppression du formulaire 
+        </button>
+    </div>
+    </div>
+
+          <!-- /**** Footer ****/ -->
+          <footer>
+    
+            <div class="centrer">
+              <div class="reseau">
+                <a href=""><img src="../image/facebook.png" alt=""></a> 
+                <div class="buttontrois">
+                    <buttontrois
+                        onclick="(function(){
+                        let para = document.createElement('p');
+                        para.textContent = 'Integrerframefromfacebook';
+                        document.body.appendChild(para);
+                        })();"> 
+                        Integrer De Facebook
+                    </buttontrois>
+                    <p></p>
+                </div>
+                <a href=""><img src="../image/twitter.png" alt=""></a>
+                <div class="buttontrois">
+                    <buttontwo 
+                        onclick="(function(){
+                        let para = document.createElement('p');
+                        para.textContent = 'IntegrerframefromTwitter';
+                        document.body.appendChild(para);
+                        })();"> 
+                        Integrer De Twitter
+                    </buttontwo>
+                </div>
+                <a href=""><img src="../image/pinterest.png" alt=""></a>
+                <div class="buttontrois">   
+                        <buttontwo 
+                            onclick="(function(){
+                            let para = document.createElement('p');
+                            para.textContent = 'IntegrerframefromPinterest';
+                            document.body.appendChild(para);
+                            })();"> 
+                            Integrer De Pinterest
+                        </buttontwo>
+                    </div>  
+                </div>
+            </div>
+        </footer>
+          <!-- /**** Footer fin ****/ -->
+  </body>
+</html>
